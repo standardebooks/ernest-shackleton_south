@@ -1,6 +1,10 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+abbr.temperature{
+	font-variant: all-small-caps;
+}
+
 #programme header{
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
@@ -10,6 +14,17 @@
 
 footer{
 	text-align: right;
+}
+
+section[epub|type~="halftitlepage"] span[epub|type~="subtitle"]{
+	display: block;
+	font-size: .75em;
+	font-weight: normal;
+}
+
+span[epub|type~="subtitle"]{
+	display: block;
+	font-weight: normal;
 }
 
 [epub|type~="z3998:verse"] p{
@@ -27,12 +42,63 @@ footer{
 	display: none;
 }
 
-[epub|type~="z3998:verse"] p + p{
+[epub|type~="z3998:verse"] + p{
+	text-indent: 0;
+}
+
+section[epub|type~="dedication"] p{
+	margin-top: 5em;
+	font-variant: small-caps;
+	text-align: center;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:letter"] header{
+	margin-bottom: 1em;
+	text-align: left;
+}
+
+[epub|type~="z3998:letter"] footer{
 	margin-top: 1em;
 }
 
-[epub|type~="z3998:verse"] + p{
+[epub|type~="se:letter.dateline"]{
+	text-align: right;
+	font-style: italic;
+}
+
+[epub|type~="z3998:diary-entry"] time{
+	font-style: italic;
+}
+
+[epub|type~="z3998:recipient"]{
+	font-variant: small-caps;
 	text-indent: 0;
+	text-align: left;
+}
+
+[epub|type~="z3998:valediction"]{
+	text-align: right;
+}
+
+[epub|type~="z3998:sender"]{
+	font-variant: small-caps;
+	text-align: right;
+}
+
+.signature{
+	font-variant: small-caps;
+}
+
+figure{
+	margin: 1em auto;
+	text-align: center;
+}
+
+figure img{
+	display: block;
+	margin: auto;
+	max-width: 100%;
 }
 
 dt{
@@ -43,4 +109,16 @@ dt{
 dd{
 	margin-bottom: 0.5em;
 	margin-left: 0.5em;
+}
+
+table{
+	width: 100%;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+td{
+	width: 33%;
+	text-align: center;
+	vertical-align: bottom;
 }
