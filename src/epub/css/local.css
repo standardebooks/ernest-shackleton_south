@@ -67,7 +67,7 @@ section[epub|type~="dedication"] p{
 	font-style: italic;
 }
 
-[epub|type~="z3998:diary-entry"] time{
+.diarydate{
 	font-style: italic;
 }
 
