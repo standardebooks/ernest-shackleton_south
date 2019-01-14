@@ -30,6 +30,13 @@
 		<link href="onix.xml" rel="onix-record"/>
 		<dc:title id="title">South!</dc:title>
 		<meta property="file-as" refines="#title">South!</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">The Story of Shackleton’s Last Expedition 1914⁠–⁠1917</dc:title>
+		<meta property="file-as" refines="#subtitle">Story of Shackleton’s Last Expedition 1914⁠–⁠1917, The</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">South!: The Story of Shackleton’s Last Expedition 1914⁠–⁠1917</dc:title>
+		<meta property="file-as" refines="#fulltitle">South!: The Story of Shackleton’s Last Expedition 1914⁠–⁠1917</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Shackleton, Ernest Henry, Sir, 1874-1922 -- Travel</dc:subject>
 		<dc:subject id="subject-2">Imperial Trans-Antarctic Expedition (1914-1917)</dc:subject>
 		<dc:subject id="subject-3">Antarctica -- Discovery and exploration</dc:subject>
@@ -51,9 +58,9 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/5199</dc:source>
 		<dc:source>https://archive.org/details/cu31924032382529</dc:source>
+		<meta property="se:production-notes">Shackleton uses an unusual way to include quotes from his logs and his men’s diaries, often starting such a quote part way through a paragraph, then followed by several more paragraphs of the remainder of the quote. In order to semantically tag such quotes, I have therefore taken the liberty of inserting a paragraph break before such quotes and blockquoting the entire quote with appropriate semantic tags. This was done as a separate [Editorial] commit so it is reversable if necessary.</meta>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOKWIKILINK</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/ernest-shackleton_south</meta>
 		<dc:creator id="author">Ernest Shackleton</dc:creator>
 		<meta property="file-as" refines="#author">Shackleton, Ernest</meta>
