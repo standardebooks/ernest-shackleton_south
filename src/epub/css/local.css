@@ -5,7 +5,7 @@ abbr.temperature{
 	font-variant: all-small-caps;
 }
 
-#programme header{
+#preface header{
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
 	text-align: center;
@@ -13,6 +13,7 @@ abbr.temperature{
 }
 
 footer{
+	margin-top: 1em;
 	text-align: right;
 }
 
