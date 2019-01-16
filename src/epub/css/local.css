@@ -78,15 +78,6 @@ section[epub|type~="dedication"] p{
 	text-align: left;
 }
 
-[epub|type~="z3998:valediction"]{
-	text-align: right;
-}
-
-[epub|type~="z3998:sender"]{
-	font-variant: small-caps;
-	text-align: right;
-}
-
 .signature{
 	font-variant: small-caps;
 }
@@ -102,14 +93,8 @@ figure img{
 	max-width: 100%;
 }
 
-dt{
-	margin-top: 0.5em;
-	font-variant: small-caps;
-}
-
-dd{
-	margin-bottom: 0.5em;
-	margin-left: 0.5em;
+dd + dt{
+	margin-top: 1.5em;
 }
 
 table{
@@ -122,4 +107,8 @@ td{
 	width: 33%;
 	text-align: center;
 	vertical-align: bottom;
+}
+
+thead{
+	font-variant: small-caps;
 }
