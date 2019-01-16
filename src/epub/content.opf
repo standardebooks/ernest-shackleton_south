@@ -2,9 +2,9 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/ernest-shackleton/south</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
-		<meta property="se:revision-number">0</meta>
+		<dc:date>2019-01-16T02:44:26Z</dc:date>
+		<meta property="dcterms:modified">2019-01-16T02:44:26Z</meta>
+		<meta property="se:revision-number">1</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -50,8 +50,8 @@
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;South!&lt;/i&gt; tells one of the most thrilling tales of exploration and survival against the odds which has ever been written. It details the experiences of the the Imperial Trans-Antarctic Expedition which set off in 1914 to make an attempt to cross the Antarctic continent.&lt;/p&gt;
-			&lt;p&gt;Under the direction of Sir Ernest Shackleton, the expedition comprised two components, one party sailing on the &lt;i&gt;Endurance&lt;/i&gt; into the Weddell Sea, which was to attempt the actual crossing; and another party on board the &lt;i&gt;Aurora&lt;/i&gt; under the direction of Aeneas Mackintosh into the Ross Sea on the other side of the continent, tasked with establishing depots of stores as far south as possible for the use of the party attempting the crossing.&lt;/p&gt;
-			&lt;p&gt;Shackleton gives a highly-readable account of the fate of both parties of the Expedition. Both fell victim to the severe environmental conditions of the region and it was never possible to attempt the crossing. The &lt;i&gt;Endurance&lt;/i&gt; was trapped in pack-ice in the Weddell Sea and the ship was eventually crushed by the pressure of the ice, leaving Shackleton’s men stranded on ice-floes, far from solid land.&lt;/p&gt;
+			&lt;p&gt;Under the direction of Sir Ernest Shackleton, the expedition comprised two components: one party sailing on the &lt;i&gt;Endurance&lt;/i&gt; into the Weddell Sea, which was to attempt the actual crossing; and another party on board the &lt;i&gt;Aurora&lt;/i&gt;, under the direction of Aeneas Mackintosh, sailing into the Ross Sea on the other side of the continent and tasked with establishing depots of stores as far south as possible for the use of the party attempting the crossing.&lt;/p&gt;
+			&lt;p&gt;Shackleton gives a highly readable account of the fate of both parties of the Expedition. Both fell victim to the severe environmental conditions of the region, and it was never possible to attempt the crossing. The &lt;i&gt;Endurance&lt;/i&gt; was trapped in pack-ice in the Weddell Sea and the ship was eventually crushed by the pressure of the ice, leaving Shackleton’s men stranded on ice floes, far from solid land.&lt;/p&gt;
 			&lt;p&gt;Shackleton’s account of their extraordinary struggles to survive is as gripping as any novel.&lt;/p&gt;
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
@@ -59,8 +59,8 @@
 		<dc:source>https://www.gutenberg.org/ebooks/5199</dc:source>
 		<dc:source>https://archive.org/details/cu31924032382529</dc:source>
 		<meta property="se:production-notes">Shackleton uses an unusual way to include quotes from his logs and his men’s diaries, often starting such a quote part way through a paragraph, then followed by several more paragraphs of the remainder of the quote. In order to semantically tag such quotes, I have therefore taken the liberty of inserting a paragraph break before such quotes and blockquoting the entire quote with appropriate semantic tags. This was done as a separate [Editorial] commit so it is reversable if necessary.</meta>
-		<meta property="se:word-count">WORDCOUNT</meta>
-		<meta property="se:reading-ease.flesch">READINGEASE</meta>
+		<meta property="se:word-count">147226</meta>
+		<meta property="se:reading-ease.flesch">69.01</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/ernest-shackleton_south</meta>
 		<dc:creator id="author">Ernest Shackleton</dc:creator>
 		<meta property="file-as" refines="#author">Shackleton, Ernest</meta>
@@ -91,6 +91,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
