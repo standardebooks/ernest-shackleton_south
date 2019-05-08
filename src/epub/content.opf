@@ -58,8 +58,8 @@
 		<dc:source>https://www.gutenberg.org/ebooks/5199</dc:source>
 		<dc:source>https://archive.org/details/cu31924032382529</dc:source>
 		<meta property="se:production-notes">Shackleton uses an unusual way to include quotes from his logs and his men’s diaries, often starting such a quote part way through a paragraph, then followed by several more paragraphs of the remainder of the quote. In order to semantically tag such quotes, I have therefore taken the liberty of inserting a paragraph break before such quotes and blockquoting the entire quote with appropriate semantic tags. This was done as a separate [Editorial] commit so it is reversable if necessary.</meta>
-		<meta property="se:word-count">147226</meta>
-		<meta property="se:reading-ease.flesch">69.01</meta>
+		<meta property="se:word-count">147237</meta>
+		<meta property="se:reading-ease.flesch">69.11</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/ernest-shackleton_south</meta>
 		<dc:creator id="author">Ernest Shackleton</dc:creator>
 		<meta property="file-as" refines="#author">Shackleton, Ernest</meta>
