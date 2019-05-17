@@ -26,7 +26,7 @@
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.0 Level AA.</meta>
-		<link href="onix.xml" rel="onix-record"/>
+		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">South!</dc:title>
 		<meta property="file-as" refines="#title">South!</meta>
 		<meta property="title-type" refines="#title">main</meta>
@@ -39,21 +39,22 @@
 		<dc:subject id="subject-1">Shackleton, Ernest Henry, Sir, 1874-1922 -- Travel</dc:subject>
 		<dc:subject id="subject-2">Imperial Trans-Antarctic Expedition (1914-1917)</dc:subject>
 		<dc:subject id="subject-3">Antarctica -- Discovery and exploration</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/5199</meta>
-		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/5199</meta>
-		<meta property="meta-auth" refines="#subject-3">https://www.gutenberg.org/ebooks/5199</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
+		<meta property="term" refines="#subject-1">Unknown</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
+		<meta property="term" refines="#subject-2">Unknown</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh85005493</meta>
 		<meta property="se:subject">Nonfiction</meta>
 		<meta property="se:subject">Adventure</meta>
 		<meta property="se:subject">Travel</meta>
 		<dc:description id="description">A British expedition sets off to cross Antarctica, but when their ship is wrecked they have to face a long struggle for survival.</dc:description>
-		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;South!&lt;/i&gt; tells one of the most thrilling tales of exploration and survival against the odds which has ever been written. It details the experiences of the the Imperial Trans-Antarctic Expedition which set off in 1914 to make an attempt to cross the Antarctic continent.&lt;/p&gt;
 			&lt;p&gt;Under the direction of Sir Ernest Shackleton, the expedition comprised two components: one party sailing on the &lt;i&gt;Endurance&lt;/i&gt; into the Weddell Sea, which was to attempt the actual crossing; and another party on board the &lt;i&gt;Aurora&lt;/i&gt;, under the direction of Aeneas Mackintosh, sailing into the Ross Sea on the other side of the continent and tasked with establishing depots of stores as far south as possible for the use of the party attempting the crossing.&lt;/p&gt;
 			&lt;p&gt;Shackleton gives a highly readable account of the fate of both parties of the Expedition. Both fell victim to the severe environmental conditions of the region, and it was never possible to attempt the crossing. The &lt;i&gt;Endurance&lt;/i&gt; was trapped in pack-ice in the Weddell Sea and the ship was eventually crushed by the pressure of the ice, leaving Shackleton’s men stranded on ice floes, far from solid land.&lt;/p&gt;
 			&lt;p&gt;Shackleton’s account of their extraordinary struggles to survive is as gripping as any novel.&lt;/p&gt;
 		</meta>
-		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/5199</dc:source>
 		<dc:source>https://archive.org/details/cu31924032382529</dc:source>
