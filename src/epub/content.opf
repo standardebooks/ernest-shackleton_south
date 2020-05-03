@@ -45,8 +45,8 @@
 		<meta property="term" refines="#subject-2">Unknown</meta>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh85005493</meta>
+		<meta property="se:subject">Memoir</meta>
 		<meta property="se:subject">Nonfiction</meta>
-		<meta property="se:subject">Adventure</meta>
 		<meta property="se:subject">Travel</meta>
 		<dc:description id="description">A British expedition sets off to cross Antarctica, but when their ship is wrecked they have to face a long struggle for survival.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
