@@ -30,11 +30,11 @@
 		<dc:title id="title">South!</dc:title>
 		<meta property="file-as" refines="#title">South!</meta>
 		<meta property="title-type" refines="#title">main</meta>
-		<dc:title id="subtitle">The Story of Shackleton’s Last Expedition 1914⁠–⁠1917</dc:title>
-		<meta property="file-as" refines="#subtitle">Story of Shackleton’s Last Expedition 1914⁠–⁠1917, The</meta>
+		<dc:title id="subtitle">The Story of Shackleton’s Last Expedition 1914–1917</dc:title>
+		<meta property="file-as" refines="#subtitle">Story of Shackleton’s Last Expedition 1914–1917, The</meta>
 		<meta property="title-type" refines="#subtitle">subtitle</meta>
-		<dc:title id="fulltitle">South!: The Story of Shackleton’s Last Expedition 1914⁠–⁠1917</dc:title>
-		<meta property="file-as" refines="#fulltitle">South!: The Story of Shackleton’s Last Expedition 1914⁠–⁠1917</meta>
+		<dc:title id="fulltitle">South!: The Story of Shackleton’s Last Expedition 1914–1917</dc:title>
+		<meta property="file-as" refines="#fulltitle">South!: The Story of Shackleton’s Last Expedition 1914–1917</meta>
 		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Shackleton, Ernest Henry, Sir, 1874-1922 -- Travel</dc:subject>
 		<dc:subject id="subject-2">Imperial Trans-Antarctic Expedition (1914-1917)</dc:subject>
