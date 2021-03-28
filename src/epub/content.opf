@@ -66,7 +66,7 @@
 		<meta property="file-as" refines="#author">Shackleton, Ernest</meta>
 		<meta property="se:name.person.full-name" refines="#author">Ernest Henry Shackleton</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Ernest_Shackleton</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n50002512</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50002512</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="se:role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="se:role" refines="#author" scheme="marc:relators">ill</meta>
@@ -74,7 +74,7 @@
 		<dc:contributor id="artist">William Bradford</dc:contributor>
 		<meta property="file-as" refines="#artist">Bradford, William</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/William_Bradford_(painter)</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n86839616</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n86839616</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Geoffrey Cowling</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Cowling, Geoffrey</meta>
