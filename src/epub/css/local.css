@@ -96,3 +96,7 @@ td{
 thead{
 	font-variant: small-caps;
 }
+
+#appendix-2-3 ol{
+	list-style: lower-alpha;
+}
