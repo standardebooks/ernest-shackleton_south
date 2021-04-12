@@ -68,6 +68,7 @@ section[epub|type~="dedication"] p{
 }
 
 figure{
+	break-inside: avoid;
 	margin: 1em auto;
 	text-align: center;
 }
