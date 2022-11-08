@@ -79,6 +79,14 @@ figure img{
 	max-width: 100%;
 }
 
+dl{
+	margin: 1em 0;
+}
+
+dd{
+	margin-left: 40px;
+}
+
 dd + dt{
 	margin-top: 1.5em;
 }
