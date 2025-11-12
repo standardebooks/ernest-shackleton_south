@@ -68,8 +68,8 @@
 		<meta property="se:name.person.full-name" refines="#author">Ernest Henry Shackleton</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Ernest_Shackleton</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50002512</meta>
-		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ill</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">William Bradford</dc:contributor>
