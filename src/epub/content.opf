@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/ernest-shackleton/south</dc:identifier>
 		<dc:date>2019-01-16T02:44:26Z</dc:date>
 		<meta property="dcterms:modified">2019-01-16T02:44:26Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -46,9 +47,9 @@
 		<meta property="term" refines="#subject-2">no99001019</meta>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh85005493</meta>
-		<meta property="se:subject">Memoir</meta>
-		<meta property="se:subject">Nonfiction</meta>
-		<meta property="se:subject">Travel</meta>
+		<meta property="schema:genre">Memoir</meta>
+		<meta property="schema:genre">Nonfiction</meta>
+		<meta property="schema:genre">Travel</meta>
 		<dc:description id="description">A British expedition sets off to cross Antarctica, but when their ship is wrecked they have to face a long struggle for survival.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;South!&lt;/i&gt; tells one of the most thrilling tales of exploration and survival against the odds which has ever been written. It details the experiences of the Imperial Trans-Antarctic Expedition which set off in 1914 to make an attempt to cross the Antarctic continent.&lt;/p&gt;
@@ -59,15 +60,16 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/5199</dc:source>
 		<dc:source>https://archive.org/details/cu31924032382529</dc:source>
-		<meta property="se:production-notes">Shackleton uses an unusual way to include quotes from his logs and his men’s diaries, often starting such a quote part way through a paragraph, then followed by several more paragraphs of the remainder of the quote. In order to semantically tag such quotes, I have therefore taken the liberty of inserting a paragraph break before such quotes and blockquoting the entire quote with appropriate semantic tags. This was done as a separate [Editorial] commit so it is reversable if necessary.</meta>
-		<meta property="se:word-count">146648</meta>
-		<meta property="se:reading-ease.flesch">69.21</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/ernest-shackleton_south</meta>
+		<meta property="schema:wordCount">146648</meta>
+		<meta property="schema:educationalLevel">69.21</meta>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/ernest-shackleton_south" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Ernest Shackleton</dc:creator>
 		<meta property="file-as" refines="#author">Shackleton, Ernest</meta>
-		<meta property="se:name.person.full-name" refines="#author">Ernest Henry Shackleton</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Ernest_Shackleton</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50002512</meta>
+		<meta property="schema:alternateName" refines="#author">Ernest Henry Shackleton</meta>
+		<link href="https://en.wikipedia.org/wiki/Ernest_Shackleton" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50002512.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
@@ -75,8 +77,8 @@
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">William Bradford</dc:contributor>
 		<meta property="file-as" refines="#artist">Bradford, William</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/William_Bradford_(painter)</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n86839616</meta>
+		<link href="https://en.wikipedia.org/wiki/William_Bradford_(painter)" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n86839616.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Geoffrey Cowling</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Cowling, Geoffrey</meta>
@@ -86,7 +88,7 @@
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">David Grigg</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Grigg, David</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://thegriggs.org/david/</meta>
+		<link href="https://thegriggs.org/david/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -96,7 +98,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
 		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com/</meta>
+		<link href="https://alexcabal.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
