@@ -50,7 +50,7 @@
 		<meta property="schema:genre">Memoir</meta>
 		<meta property="schema:genre">Nonfiction</meta>
 		<meta property="schema:genre">Travel</meta>
-		<dc:abstract>A British expedition sets off to cross Antarctica, but when their ship is wrecked they have to face a long struggle for survival.</dc:abstract>
+		<meta property="schema:abstract">A British expedition sets off to cross Antarctica, but when their ship is wrecked they have to face a long struggle for survival.</meta>
 		<dc:description>
 			&lt;p&gt;&lt;i&gt;South!&lt;/i&gt; tells one of the most thrilling tales of exploration and survival against the odds which has ever been written. It details the experiences of the Imperial Trans-Antarctic Expedition which set off in 1914 to make an attempt to cross the Antarctic continent.&lt;/p&gt;
 			&lt;p&gt;Under the direction of &lt;a href="https://standardebooks.org/ebooks/ernest-shackleton"&gt;Sir Ernest Shackleton&lt;/a&gt;, the expedition comprised two components: one party sailing on the &lt;i&gt;Endurance&lt;/i&gt; into the Weddell Sea, which was to attempt the actual crossing; and another party on board the &lt;i&gt;Aurora&lt;/i&gt;, under the direction of Aeneas Mackintosh, sailing into the Ross Sea on the other side of the continent and tasked with establishing depots of stores as far south as possible for the use of the party attempting the crossing.&lt;/p&gt;
